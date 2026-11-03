@@ -63,8 +63,7 @@ Does not own: the definitions themselves (those live in `aop-foundations`
 and `aop-spec`; governance governs their change, not their content).
 
 The plan files live here under `plans/`, which is where the local programme
-workspace at a local authoring workspace is eventually published.
-
+authoring workspace is eventually published.
 #### `aop-foundations` (tier: concept)
 
 The concept repository. Owns the definition of an Agentic Operating
