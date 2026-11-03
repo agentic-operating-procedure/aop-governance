@@ -1,8 +1,6 @@
 # AOP Programme Plan: Concept, Specification, Architecture, Substrate, Tooling, Runtime, Registry, Assurance, Evaluation, Adoption, Governance Levels (Programme Scope)
 
-_Mirrors the board at http://192.168.50.160:7000/board/75 (project 75, `AOPORG`).
-Origin: Discord guild `1496909480783249428`, parent channel `1567014161659985992`,
-thread `1567023253774671914` (`#agntic-operating-procedure`)._
+_Published as the programme's authoritative plan. Work items are tracked on the programme board and mirrored in the organisation roadmap project._
 
 ## 1. Purpose
 
@@ -293,7 +291,7 @@ immutable once ratified; superseding a ratified decision creates a new entry.
 - Every change to the estate is recorded as a change request against the
   governance repository, including repository creation, retirement, renaming
   and tier reassignment.
-- The board at http://192.168.50.160:7000/board/75 is the audit trail for
+- The board at the programme board is the audit trail for
   work items on this channel. Every action, decision, recon, test and
   artefact produced on this channel raises a card.
 - The org-level GitHub Project is the public cross-repo view. The board is
@@ -309,15 +307,13 @@ programme_scope: >-
   engineering discipline, with a full estate of specifications, tooling,
   runtime, assurance and adoption surfaces.
 board:
-  url: http://192.168.50.160:7000/board/75
-  project_id: 75
   identifier: AOPORG
-  columns: { backlog: 301, in_progress: 302, review: 303, done: 304 }
-discord:
-  guild_id: "1496909480783249428"
-  parent_channel_id: "1567014161659985992"
-  thread_id: "1567023253774671914"
-  channel: agntic-operating-procedure
+  columns: [backlog, in_progress, review, done]
+roadmap:
+  organisation: agentic-operating-procedure
+  project: AOP Programme Roadmap
+  fields: [status, stage, priority]
+  classification: authority gradient labels
 repositories:
   - { name: aop-governance,        tier: governance,  wave: 1 }
   - { name: aop-foundations,       tier: concept,     wave: 1 }

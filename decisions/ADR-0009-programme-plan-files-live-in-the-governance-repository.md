@@ -20,5 +20,5 @@ drifting apart silently.
 
 ## Consequences
 
-The local workspace at `/home/hermes/aop-programme` is the authoring
+The local workspace at a local authoring workspace is the authoring
 surface. It is published into `aop-governance` on the wave 1 landing.
