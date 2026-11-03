@@ -1,9 +1,6 @@
 # AOP Repository Map: Governance, Concept, Specification, Architecture, Substrate, Tooling, Runtime, Registry, Assurance, Evaluation, Adoption Levels (Org Scope)
 
-_Mirrors the board at http://192.168.50.160:7000/board/75 (project 75, `AOPORG`).
-Companion to the programme plan. This map is the rationale for the estate:
-what each repository owns, what it refuses to own, and which facet of the
-concept it answers._
+_Published as the programme's authoritative plan. Work items are tracked on the programme board and mirrored in the organisation roadmap project.
 
 ## 1. Design rules applied
 
@@ -66,7 +63,7 @@ Does not own: the definitions themselves (those live in `aop-foundations`
 and `aop-spec`; governance governs their change, not their content).
 
 The plan files live here under `plans/`, which is where the local programme
-workspace at `/home/hermes/aop-programme` is eventually published.
+workspace at a local authoring workspace is eventually published.
 
 #### `aop-foundations` (tier: concept)
 

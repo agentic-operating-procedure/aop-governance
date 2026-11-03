@@ -1,9 +1,6 @@
 # AOP Concept Model: Agentic Operating Engineering, Agentic Operating Procedure, Agent Skill, Domain Agent Harness, Agent, Agentic Operations Levels (Concept Scope)
 
-_Mirrors the board at http://192.168.50.160:7000/board/75 (project 75, `AOPORG`).
-The conceptual spine of the programme. Every repository, artefact and board
-card in the estate resolves to exactly one level or to an explicitly declared
-contiguous range of levels in this ladder._
+_Published as the programme's authoritative plan. Work items are tracked on the programme board and mirrored in the organisation roadmap project.
 
 ## 1. The hierarchy
 

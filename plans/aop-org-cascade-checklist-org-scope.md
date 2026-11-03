@@ -1,8 +1,6 @@
 # AOP Org Cascade Checklist: Governance, Concept, Specification, Architecture, Substrate, Tooling, Runtime, Registry, Assurance, Evaluation, Adoption Levels (Org Scope)
 
-_Mirrors the board at http://192.168.50.160:7000/board/75 (project 75, `AOPORG`).
-The exhaustive item-level checklist that every structural change to the
-estate is audited against. Companion to the repository map cascade section._
+_Published as the programme's authoritative plan. Work items are tracked on the programme board and mirrored in the organisation roadmap project.
 
 ## How to use this checklist
 
@@ -148,7 +146,7 @@ touched.
 | L4 | Link integrity | IN SCOPE | Do all new internal links resolve to existing artefacts? |
 | L5 | Naming consistency | IN SCOPE | Do new repository and artefact names follow the established convention exactly? |
 | L6 | Reversibility | IN SCOPE | Can this change be rolled back without data loss, and is that path recorded? |
-| L7 | Board reconciliation | IN SCOPE | Does the Kanban board reflect the change, with a card per action, decision and artefact? |
+| L7 | Board reconciliation | IN SCOPE | Does the programme board reflect the change, with a card per action, decision and artefact? |
 | L8 | Project reconciliation | IN SCOPE | Does the organisation project reflect the change in stage and status? |
 
 ## M. Cross-check stage
