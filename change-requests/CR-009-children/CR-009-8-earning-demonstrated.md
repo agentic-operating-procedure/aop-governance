@@ -1,5 +1,7 @@
 # CR-009-8: Earning Demonstrated
 
+**MERGED 2026-11-05 into CR-014** (independent out-of-sample evaluation; earning Demonstrated) per the comprehensive CR plan (`plans/aop-comprehensive-cr-plan-programme-scope.md`). This child remains as the review-1 record; its content lives on in the estate CR.
+
 Parent: CR-009. Review item: CR-8. Reconciliation: known open item, the estate states it itself. Class: research and evaluation. Status: Proposed, block 3.
 
 ## Change (planned)

@@ -57,6 +57,10 @@ Consistent with the estate's established landing pattern, block 1 items are impl
 | J1 to J4, K1 to K2 | IN SCOPE, no change: the playbook cites the new clauses at its stage 3 and 6 gates |
 | L1 to L8 | IN SCOPE: met, same audit method as CR-008 |
 
+## 5a. Integration with the second review (2026-11-05)
+
+A second, repo-aware external review (18 items, `CRs/aop-review-change-request-set_2.md`) was reconciled into this programme. The unified numbering map, the merged CRs, the wave sequencing and the full index are published in `plans/aop-comprehensive-cr-plan-programme-scope.md`. In summary: review 2's items renumber to estate CR-010 to CR-027; four merge with this CR's pending children (CR-009-5 into CR-016, CR-009-6 into CR-013, CR-009-7 into CR-015, CR-009-8 into CR-014); CR-009-3 rides Wave H1. Review 2's narrowed dispositions are adopted as the reconciliation baseline for what is already covered.
+
 ## 6. What this CR is not
 
 It is not a repositioning: the specification-layer claim and the standards-sourcing scope are the owner's to change, flagged in CR-009-9. It is not the Demonstrated claim: CR-009-8 organises the evidence work; the claim itself remains open until the non-steward pilot and the independent reproduction exist.
