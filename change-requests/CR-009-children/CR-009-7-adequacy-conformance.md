@@ -1,5 +1,7 @@
 # CR-009-7: Conformance From Presence to Adequacy
 
+**MERGED 2026-11-05 into CR-015** (conformance expansion: adversarial, interoperability, tiers) per the comprehensive CR plan (`plans/aop-comprehensive-cr-plan-programme-scope.md`). This child remains as the review-1 record; its content lives on in the estate CR.
+
 Parent: CR-009. Review item: CR-7. Reconciliation: partially covered (must-fail fixtures and several semantic lints exist). Class: assurance. Status: Proposed, block 3. Owner decision taken 2026-11-05: tiered claims over binary suites (the certification process document carries the tier vocabulary; the metamodel L0 to L4 cross-maps informatively; reconciliation point 6 is settled). Block 3 implements the adversarial suite as the third tier's suite, the coverage map, byte pinning and the second verifier.
 
 ## Already covered (reconciled)
