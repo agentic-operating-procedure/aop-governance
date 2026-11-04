@@ -6,7 +6,7 @@
 | Class | Normative + Architecture |
 | Priority | P1 |
 | Depends on | CR-012 |
-| State | New |
+| State | In progress (NM-VER-6 + registry revocation state + hold-on-revoked landed under CR-029) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Specify per-scope suspension and revocation that never mutates historical record
 - Active-run behaviour on revocation is defined and tested per action class.
 - A historical case remains interpretable after a schema or registry change.
 - Reconciles with: NM-VER-4/5 (lifecycle statuses; approval, release and operational authorisation already distinct), SEC-15 (domain-wide emergency stop; this CR adds per-AOP scope control) and CR-025 (incident lifecycle).
+
+## Landing note (2026-11-05)
+
+NM-VER-6 + registry revocation state + hold-on-revoked landed under CR-029. See CR-029 for the full audit.
