@@ -6,7 +6,7 @@
 | Class | Foundational + Normative |
 | Priority | P1 |
 | Depends on | None |
-| State | New |
+| State | In progress (points 1, 2, 5, 7 landed under CR-028) |
 
 ## Problem
 
@@ -22,3 +22,7 @@ Publish the authoritative six-level to four-scope mapping (one diagram and gloss
 - Dimension count and names consistent across all canonical entry points.
 - The seven reconciliation points each carry a final disposition in the mapping document.
 - The entity register is published and citable.
+
+## Landing note (2026-11-05)
+
+Landed under CR-028: the entity register (point 7, with the E26 to E40 caveat), the source errata (point 2), the mapping dispositions (points 1, 5 in part, 7). Remainder: the normative six-level to four-scope diagram and glossary map refinement, and completing the register when the Stage 03 and 05 sources are supplied.

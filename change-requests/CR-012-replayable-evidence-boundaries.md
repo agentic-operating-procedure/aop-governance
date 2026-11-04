@@ -6,7 +6,7 @@
 | Class | Normative + Architecture |
 | Priority | P0 |
 | Depends on | CR-011 |
-| State | New |
+| State | In progress (RP-1..7 normative; R1/R2 implemented under CR-028) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Define replay levels: record verification, decision-trace reconstruction, and op
 - The replay levels are normative and never imply that reconstruction authorises re-execution.
 - A third party verifies a supplied record without trusting the harness or agent that produced it.
 - Reconciles with: SEC-8/SEC-10 (chain and replay) and CR-026 (erasure narrows replay claims explicitly).
+
+## Landing note (2026-11-05)
+
+Landed under CR-028: RP-1 to RP-7 normative; the replay module implements R1 and R2 with third-party verification (HAR-12); R3 deliberately unimplemented per RP-2. Remainder: external anchoring exercise, export/import between implementations.
