@@ -297,6 +297,23 @@ immutable once ratified; superseding a ratified decision creates a new entry.
 - The org-level GitHub Project is the public cross-repo view. The board is
   the internal working record. The two are reconciled on every phase gate.
 
+## 7a. Addendum (2026-11-06): the hardening programme and the estate's current state
+
+Two external reviews (2026-11-04) were reconciled into the comprehensive CR plan (`plans/aop-comprehensive-cr-plan-programme-scope.md`) and landed as five hardening waves on top of the original programme:
+
+| Wave | CR | Scope | State |
+|---|---|---|---|
+| H1 Foundational | CR-028 | Run/action semantics, replay levels, budgets, metamodel register | Landed (PR #11) |
+| H2 Integrity | CR-029 | Approval binding, parameters, revocation, loop hygiene, observation plane | Landed (PR #12) |
+| H3 Security and lifecycle | CR-030 | Supply chain, workload identity, revalidation, incidents, erasure | Landed (PR #13) |
+| H4 Evidence | CR-031 | Independent evaluation protocol, adversarial suite, coverage map | Landed (PR #14) |
+| H5 Maturity | CR-032 | Reviewer independence, operating modes, the Pi adapter | Landed (PR #15) |
+| Closure | CR-033 | The held-out cohort run; the metamodel map | Landed (PR #16) |
+
+Estate state: 14 repositories, all phase gates of the original programme passed, the conformance harness profile certified at 25 checks (tier: Enforced), the document profile certified (tier: Validated), coverage map 28 of 31 with the three uncovered items stated, and the first held-out result published (claim class generalisation-held-out, limits stated).
+
+What remains is live by nature, and the estate says so: the adoption pilot by a team other than the stewards (the Wave 6 exit), the prospective live cohort and the value claim against the published baseline, an independent reproduction, the lodging of the DEA catalog contribution drafts, and the metamodel register's E26 to E40 pending the owner's Stage 03 and 05 sources.
+
 ## 8. Machine-readable summary
 
 ```yaml

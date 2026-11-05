@@ -38,6 +38,12 @@ Three artefact classes, one authority each. The full model is in `docs/change-mo
 
 A change lands only when it has a record. Structural change to the estate, including repository creation, retirement, renaming, and tier reassignment, is a CR. It is audited against the cascade checklist in `plans/aop-org-cascade-checklist-org-scope.md` before it lands.
 
+## The change record
+
+- [Change request register](./docs/cr-register.md): one line per CR, CR-001 to CR-033, with landing states
+- [Reviewer independence and claims discipline](./docs/reviewer-independence-and-claims-discipline-governance-scope.md): the GI layer
+- [Programme plan addendum](./plans/aop-programme-plan-programme-scope.md): the hardening waves H1 to H5 and the estate's current state
+
 ## The estate at a glance
 
 The full rationale, ownership boundaries, and landing order are in `plans/aop-repository-map-org-scope.md`.
