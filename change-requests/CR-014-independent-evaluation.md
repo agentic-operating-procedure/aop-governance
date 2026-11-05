@@ -6,7 +6,7 @@
 | Class | Evidence |
 | Priority | P0 |
 | Depends on | CR-013 |
-| State | New |
+| State | In progress (protocol EV-P1..11, cohort module, labelled claims, promotion records landed under CR-031; the prospective live run is the adoption pilot) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Define the evaluation protocol with separated development, held-out and prospect
 - The same cases never serve as both mining input and sole evaluation set.
 - At least one independent reproduction is published; negative results reported alongside positive.
 - The Wave 6 exit condition (a non-steward pilot) is met or the claim stays steward-run.
+
+## Landing note (2026-11-05)
+
+Landed under CR-031. See the landing CR for the full audit.
