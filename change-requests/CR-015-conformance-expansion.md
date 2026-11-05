@@ -6,7 +6,7 @@
 | Class | Evidence |
 | Priority | P1 |
 | Depends on | CR-011, CR-012 |
-| State | New |
+| State | In progress (adversarial suite, coverage map 28/31, byte pinning, HAR-24/25 landed under CR-031; two independent verifiers remain the open gap) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Implement the settled tier vocabulary (Validated, Enforced, Adversarially Tested
 - Positive and must-fail cases exist for every mechanically testable MUST.
 - A third party runs the suite offline and reproduces the results.
 - Certification is never presented as proof of task quality or safety outside the tested envelope.
+
+## Landing note (2026-11-05)
+
+Landed under CR-031. See the landing CR for the full audit.
