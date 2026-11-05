@@ -6,7 +6,7 @@
 | Class | Adoption + Evidence |
 | Priority | P2 |
 | Depends on | CR-014 to CR-017 |
-| State | New |
+| State | In progress (the five operating modes + promotion/demotion/stop gates landed under CR-032; per-family pre-registered thresholds land with pilots) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Define per-action-class operating modes with entry and exit gates, required moni
 - A low-risk workflow is useful in observe or recommend mode while evidence accumulates.
 - Failures that trigger immediate demotion or suspension are enumerated and tested.
 - Model confidence is never a proxy for authority.
+
+## Landing note (2026-11-05)
+
+Landed under CR-032. See the landing CR for the full audit.

@@ -6,7 +6,7 @@
 | Class | Implementation + Adoption |
 | Priority | P2 |
 | Depends on | CR-011, CR-015, CR-019 |
-| State | New |
+| State | In progress (the experimental adapter + self-test 5/5 landed under CR-032; a live Pi integration and the promotion gates remain) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Prototype an optional adapter: Pi reasons and proposes; the external guardrail a
 
 - The adapter passes the relevant document and harness profiles, including bypass attempts through extensions or subprocesses.
 - Labelled experimental until an independent implementation and a live pilot pass the relevant gates. Never a normative dependency.
+
+## Landing note (2026-11-05)
+
+Landed under CR-032. See the landing CR for the full audit.

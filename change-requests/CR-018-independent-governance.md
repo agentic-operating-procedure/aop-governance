@@ -6,7 +6,7 @@
 | Class | Governance |
 | Priority | P2 |
 | Depends on | CR-014, CR-015 |
-| State | New |
+| State | In progress (the independence layer GI-1..10 landed under CR-032; running it on real reviews is the maturity step) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define reviewer eligibility, conflicts of interest, quorum and dissent recording
 
 - A reviewer can require a claim to be narrowed or withdrawn, with the process recorded.
 - Proportionate for a draft standard while credible enough for external readers.
+
+## Landing note (2026-11-05)
+
+Landed under CR-032. See the landing CR for the full audit.
