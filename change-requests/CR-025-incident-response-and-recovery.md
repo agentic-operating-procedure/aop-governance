@@ -6,7 +6,7 @@
 | Class | Architecture + Normative |
 | Priority | P1 |
 | Depends on | CR-011, CR-017 |
-| State | New |
+| State | In progress (ARC-IR1/2 + declare/respond/recover with integrity check and owner-gated resumption + migration markers landed under CR-030) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define the Detect/Respond/Recover lifecycle with incident classes, severity, det
 
 - End-to-end exercises cover compromised tool, leaked credential, malicious AOP, observation tampering, policy-service outage and partially completed side effect.
 - Reconciles with: SEC-14/15 and the recovery model (extends them into an operational lifecycle), CR-017 (lifecycle states).
+
+## Landing note (2026-11-05)
+
+Landed under CR-030. See the landing CR for the full audit.

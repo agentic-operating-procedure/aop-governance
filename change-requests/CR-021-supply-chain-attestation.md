@@ -6,7 +6,7 @@
 | Class | Architecture + Security |
 | Priority | P1 |
 | Depends on | CR-015, CR-017 |
-| State | New |
+| State | In progress (NM-VER-7 + SK-12 + build attestation + registry unsigned-effective refusal landed under CR-030; signing scheme remains the deployment obligation) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define attestations binding published artefacts to source inputs (SOP, corpus di
 
 - Fixtures reject tampered artefacts, mismatched attestations, unpinned dependencies and dependency substitution.
 - Reconciles with: ARC-TB1 (extends signing from bundles to the whole supply chain), SK-1..SK-11 (extends the skill contract with lineage), CR-017 (owns suspension and revocation behaviour).
+
+## Landing note (2026-11-05)
+
+Landed under CR-030. See the landing CR for the full audit.

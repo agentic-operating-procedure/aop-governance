@@ -6,7 +6,7 @@
 | Class | Normative + Evidence |
 | Priority | P1 |
 | Depends on | CR-014, CR-015, CR-017 |
-| State | New |
+| State | In progress (NM-VER-8 component matrix stamped on every record entry landed under CR-030; the impact-classified gate registry and fixture set remain) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define the change-impact matrix and revalidation policy: run records carrying im
 
 - Fixtures simulate component changes and verify the right gate blocks or permits rollout.
 - Hosted models with mutable aliases are handled by digest or configuration pinning, not by name.
+
+## Landing note (2026-11-05)
+
+Landed under CR-030. See the landing CR for the full audit.
