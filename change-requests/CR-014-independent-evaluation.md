@@ -25,3 +25,7 @@ Define the evaluation protocol with separated development, held-out and prospect
 ## Landing note (2026-11-05)
 
 Landed under CR-031. See the landing CR for the full audit.
+
+## Landing note (2026-11-06)
+
+CR-033 exercised the protocol end to end on the 5G exemplar: deterministic split, development-only compile, held-out shadow evaluation with the correct claim class. Remaining: the prospective live cohort and the independent reproduction.
