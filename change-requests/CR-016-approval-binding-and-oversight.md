@@ -6,7 +6,7 @@
 | Class | Normative + Architecture |
 | Priority | P1 |
 | Depends on | CR-011 |
-| State | New |
+| State | In progress (the approval object, four outcomes, canaries, oversight metrics, SLA routing landed under CR-029) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define the approval object bound to an immutable action payload digest, target, 
 
 - The reference harness emits oversight metrics and raises a failing-approver alert under an injected approval pattern.
 - Reconciles with: SEC-9 bundles and ARC-C2 (approval-gated credentials); extends them with binding and revocation.
+
+## Landing note (2026-11-05)
+
+the approval object, four outcomes, canaries, oversight metrics, SLA routing landed under CR-029. See CR-029 for the full audit.

@@ -6,7 +6,7 @@
 | Class | Normative |
 | Priority | P1 |
 | Depends on | CR-011, CR-016 |
-| State | New |
+| State | In progress (RA-20..22 + declared schemas + enforcement validation + HAR-18 landed under CR-029) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define typed action schemas: required and optional fields, types, units, bounds,
 
 - Conformance fixtures tamper parameters between proposal, approval and execution; all tampering is caught.
 - Cumulative effects across a case cross-reference the CR-009-3 budgets.
+
+## Landing note (2026-11-05)
+
+RA-20..22 + declared schemas + enforcement validation + HAR-18 landed under CR-029. See CR-029 for the full audit.

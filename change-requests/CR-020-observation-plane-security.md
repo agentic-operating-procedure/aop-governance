@@ -6,7 +6,7 @@
 | Class | Architecture + Security |
 | Priority | P1 |
 | Depends on | CR-013, CR-015 |
-| State | New |
+| State | In progress (ARC-OP1..4 + T8 landed under CR-029; enforcement tests await the substrate implementation) |
 
 ## Problem
 
@@ -21,3 +21,7 @@ Specify and test: authenticated source identity for capture connectors with key 
 - One agent cannot raise its own behaviour's frequency or authority in the corpus.
 - An auditor can distinguish missing observation from a true absence of a path.
 - Reconciles with: T5, CG-O posture, CG-S stitching; adds enforcement and tests to the stated assumption.
+
+## Landing note (2026-11-05)
+
+ARC-OP1..4 + T8 landed under CR-029; enforcement tests await the substrate implementation. See CR-029 for the full audit.

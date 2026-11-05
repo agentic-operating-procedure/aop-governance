@@ -6,7 +6,7 @@
 | Class | Normative + Architecture |
 | Priority | P1 |
 | Depends on | CR-010 |
-| State | New |
+| State | In progress (origin tagging, reservoir, corpus quality, contestability, quarantine clauses + evaluation filtering landed under CR-029) |
 
 ## Problem
 
@@ -22,3 +22,7 @@ Merge the CR-009-6 loop-hygiene obligations with the corpus-quality remainder: o
 - Low-support and low-confidence rules are flagged and cannot silently gain autonomy (landed; verified here end to end).
 - A team can reproduce why a case was excluded from a corpus.
 - Vocabulary reconciliation: the landed observed/reviewed/ratified statuses stand; this CR maps, not renames.
+
+## Landing note (2026-11-05)
+
+origin tagging, reservoir, corpus quality, contestability, quarantine clauses + evaluation filtering landed under CR-029. See CR-029 for the full audit.
