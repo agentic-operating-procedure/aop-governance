@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Version | 0.1.0 |
+| Version | 0.1.1 |
 | Status | Stable |
 | Owner | Emmanuel A. Otchere |
 | Authority | `aop-governance` |
@@ -42,6 +42,8 @@ A CR is the mechanism through which the estate changes shape. Repository creatio
 | Landing condition | The implementing record merges and the CR is marked Implemented |
 
 A CR for the estate carries a cascade audit against `plans/aop-org-cascade-checklist-org-scope.md`, and states the items it deliberately does not change.
+
+From the reviewer-independence layer (2026-11-05): a normative CR records review from at least one implementer or domain reviewer outside the authoring path (GI-1), with conflicts declared (GI-2) and dissent recorded where it exists (GI-5). The programme owner's approval remains the decision; the independent review is the second recorded approval (GI-4). See `docs/reviewer-independence-and-claims-discipline-governance-scope.md`.
 
 ## 4. Finding (FND)
 
