@@ -6,7 +6,7 @@
 | Class | Normative + Architecture |
 | Priority | P1 |
 | Depends on | CR-012, CR-013, CR-017 |
-| State | New |
+| State | In progress (NM-ASR-7 + payload externalisation, shredding, tombstones, narrowed replay claims landed under CR-030; backup/replica propagation remains) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Separate minimal integrity and accountability metadata from sensitive payloads e
 
 - Tests cover deletion propagation, key destruction, backup and replica handling, and tamper detection after erasure.
 - The record states what can still be reconstructed after erasure, and what claims are withdrawn.
+
+## Landing note (2026-11-05)
+
+Landed under CR-030. See the landing CR for the full audit.

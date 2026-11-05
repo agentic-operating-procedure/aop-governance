@@ -6,7 +6,7 @@
 | Class | Normative + Architecture + Security |
 | Priority | P1 |
 | Depends on | CR-015, CR-016 |
-| State | New |
+| State | In progress (SEC-16/17 + ARC-WS1/2 + workload identity with cross-workload refusal landed under CR-030; egress enforcement tests belong to deployment profiles) |
 
 ## Problem
 
@@ -20,3 +20,7 @@ Define workload identity bound to AOP version, tenant or case, action class and 
 
 - All external side effects pass through an enforcement point that validates identity, action, target and decision; bypass paths are blocked and tested.
 - Credentials are unavailable to the model context and unusable across workloads, runs, tenants or action classes.
+
+## Landing note (2026-11-05)
+
+Landed under CR-030. See the landing CR for the full audit.
