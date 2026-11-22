@@ -40,3 +40,4 @@ One line per change request, with its landing state. The register is the index; 
 | CR-031 | Land Wave H4 | H4 | Implemented |
 | CR-032 | Land Wave H5 | H5 | Implemented |
 | CR-033 | Held-out cohort run; metamodel map | Closure | Implemented |
+| CR-038 | Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles | Alignment | Implemented |

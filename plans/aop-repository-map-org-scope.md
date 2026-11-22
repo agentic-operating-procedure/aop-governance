@@ -385,6 +385,14 @@ This programme is not self-contained and does not pretend to be.
 - **Execution discipline.** The repository, review and release conventions
   are the ones already in force across this estate: one logical change per
   branch, review before merge, an auditable history.
+- **Trust framework.** The trust semantics that this programme's procedures,
+  harnesses and conformance profiles realise — mandates, the outside-model
+  decision point, per-action enforcement, evidence, and graded assurance —
+  are defined by the `Zero-TAF` organisation
+  (`https://github.com/Zero-TAF`). The mapping direction is one-way from
+  each side: Zero-TAF defines the trust architecture; this programme
+  realises it as a profile. Neither estate copies the other. Recorded by
+  CR-038.
 
 ## 6. Authority ladder summary
 
