@@ -1,10 +1,8 @@
 name: verify-changelog
 
-# CR-039: the version-record guard. The estate's changelogs are the version
-# record for every repo; a structurally broken entry (lost heading, duplicate
-# release, missing link ref, README disagreement) fails the build here.
-# The tool lives in agentic-operating-procedure/site (tools/changelog.py)
-# and is fetched read-only; this workflow never runs estate code as build code.
+# CR-042 tranche 2: the canonical verifier is maintained in this repository.
+# Estate consumers will move to an immutable commit plus SHA-256 verification
+# in a separate migration tranche after this source has merged.
 
 on:
   pull_request:
@@ -16,9 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch the changelog tool from the site repo
-        run: |
-          curl -fsSL -o changelog.py \
-            https://raw.githubusercontent.com/agentic-operating-procedure/site/main/tools/changelog.py
+      - name: Test canonical changelog verifier
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Verify CHANGELOG.md structure and README agreement
-        run: python3 changelog.py verify .
+        run: python3 tools/changelog.py verify .
