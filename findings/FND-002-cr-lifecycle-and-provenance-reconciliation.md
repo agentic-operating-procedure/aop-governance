@@ -68,7 +68,7 @@ These changed-file lists matter: PRs #18, #19, #20 and #23 are governance record
 
 CR-039's current version tags were confirmed across all thirteen versioned repositories during CR-042 preparation. The latest `verify-changelog` workflow runs checked at that time failed in twelve repositories; the aop-governance run passed. The aop-foundations failure showed the site-hosted verifier fetch failing before the verifier step, which was skipped.
 
-The tag check and workflow-file presence do not satisfy the zero-failure verifier acceptance criterion. The current shared verifier is fetched from mutable site `main`, so the dependency is not immutable. The detailed run evidence and its limits are recorded in FND-001 and CR-042.
+The tag check and workflow-file presence do not satisfy the zero-failure verifier acceptance criterion. The current shared verifier is fetched from mutable site `main`, so the dependency is not immutable. The `verify-changelog` run for this PR's head commit (`25a903b034a475c9ca6d425369f78b43ee934b20`) completed successfully in `aop-governance`; that is repository-local validation and does not repair or supersede the twelve previously failed runs in the other repositories. The detailed run evidence and its limits are recorded in FND-001 and CR-042.
 
 ## 5. CR-040 retrospective reconstruction decision boundary
 
