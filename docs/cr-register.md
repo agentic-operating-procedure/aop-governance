@@ -47,7 +47,8 @@ One line per change request, with its landing state. The register is the index; 
 | CR-038 | Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles | Alignment | Proposed; verify current landing state |
 | CR-039 | Repair the estate's version records and guard them in CI | Governance tooling | Proposed |
 | CR-040 | Site repository and changelog verification tooling | Governance tooling | Referenced by CR-039; no CR-040 file found in the current change-requests directory during this reconciliation |
-| CR-041 | Restore fault-management fixture integrity and execution-policy consistency | Model | Proposed |\n| CR-042 | Reconcile governance state and restore estate integrity controls | Governance | Proposed |
+| CR-041 | Restore fault-management fixture integrity and execution-policy consistency | Model | Proposed |
+| CR-042 | Reconcile governance state and restore estate integrity controls | Governance | Proposed |
 
 ## Register reconciliation note
 
