@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Implemented |
 | Date | 2026-11-08 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Demonstration |
@@ -43,6 +43,8 @@ Execute the swap: metric gaps to canonical references; the process gap updated t
 
 It is not the process-reference swap: that completes when the catalog's maintainer reclassification assigns the canonical `processes:process-*` entity, and a follow-up CR records it. It is not a new publication claim: the references cite what the catalogs published, no more.
 
-## 7. Implementation
+## 7. Implementation and evidence
 
-Implemented in aop-examples v0.4.0.
+Implemented in `aop-examples v0.4.0`. The release changelog records all five metric bindings as canonical references, the process contribution as accepted with canonical entity assignment still pending, and the exemplar AOPs recompiled. It records the lint, adapter self-test and Wave 6 reproduction gate as passing. [Governance PR #20](https://github.com/agentic-operating-procedure/aop-governance/pull/20) records the implementation claim and exact identifiers.
+
+The current manifests and release record support the binding and process-state changes. The historical lint, adapter and reproduction outputs were not independently re-executed during this reconciliation; they remain recorded implementation evidence rather than fresh test results. The pending process entity assignment is explicitly outside this CR's completion criteria.

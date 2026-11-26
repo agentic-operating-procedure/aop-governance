@@ -46,7 +46,7 @@ All 14 repositories. The repair content:
 | B1 to B8 | IN SCOPE, no change: no clause, schema or validator text changes; the records describe the same landed content |
 | C1 to D5 | N/A or no change |
 | E6 | IN SCOPE, no change: the toolkit SDK surface unchanged; records only |
-| F to K | N/A or no change |
+| F to K | N/A |
 | L1 | IN SCOPE: met |
 | L4 | IN SCOPE: strengthened; the compare links now resolve to real tags |
 | L7, L8 | IN SCOPE: the register and plan addendum already describe the landed content; this CR repairs the per-repo records |
@@ -55,6 +55,20 @@ All 14 repositories. The repair content:
 
 It is not a content change: every restored entry describes content that already landed and was verified at landing time; only the record was missing. It is not a re-versioning: no version number changes meaning; the numbers now match the record. It is not retroactive tagging of every historical version: only current versions are tagged; the older compare links resolve against tags as they are progressively created.
 
-## 7. Implementation
+## 7. Implementation and reconciliation
 
-Implemented across all 14 repositories. The verification tool is `site/tools/changelog.py` (created with the site repository, CR-040) and the workflows reference it by raw URL.
+Implementation is partial and acceptance is not yet demonstrated.
+
+**Evidence present**
+- The `verify-changelog` workflow is present in all thirteen formal repositories other than the shared `.github` repository.
+- The current version tags were confirmed across all thirteen versioned repositories during CR-042 preparation.
+- The shared verifier exists at `site/tools/changelog.py` and is used by the estate workflows.
+- Governance PR #23 merged this CR record at `e1f594e262dcdad583290abaaad141b8da84c742`.
+
+**Acceptance evidence not satisfied**
+- The latest verifier workflow run failed in twelve of the thirteen versioned repositories; the governance repository's latest run passed. In the inspected `aop-foundations` run, fetching the shared verifier from the site repository failed and the verifier step was skipped.
+- A passing tag check does not prove that the changelog verifier executed successfully.
+- The current implementation fetches the verifier from the mutable site `main` branch, so the dependency is neither immutable nor independently integrity-checked.
+- The all-repository zero-failure acceptance criterion is therefore not met. The `verify-changelog` workflow for this reconciliation PR passed on the `aop-governance` head commit (`25a903b034a475c9ca6d425369f78b43ee934b20`); this local pass does not establish estate-wide recovery or change the twelve prior failures.
+
+**Disposition:** retain Proposed. This CR is partially implemented in fact, but the current change model has no partial-implementation state. CR-042 must establish that disposition before this CR can be marked Implemented. Do not interpret the presence of workflow files or version tags as successful operation of the control.

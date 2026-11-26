@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Implemented |
 | Date | 2026-11-06 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Governance |
@@ -10,7 +10,7 @@
 
 ## 1. Problem statement
 
-The governance artefacts have not caught up with the hardening programme. The programme plan ends at the original Wave 6 with no mention of the hardening waves H1 to H5 or the estate's current state; thirty-three change requests exist with no register index; and the reviewer-independence layer (GI-1 to GI-10, landed with CR-032) is not wired into the change model, so a reader of the change model alone would not know the second-approval requirement exists. The cascade's cross-artifact-consistency rule (M4) requires all four to describe the same estate.
+The governance artefacts had not caught up with the hardening programme. The programme plan ended at the original Wave 6 with no mention of the hardening waves H1 to H5 or the estate's current state; thirty-three change requests existed with no register index; and the reviewer-independence layer (GI-1 to GI-10, landed with CR-032) was not wired into the change model, so a reader of the change model alone would not know the second-approval requirement existed. The cascade's cross-artifact-consistency rule (M4) required all four to describe the same estate.
 
 ## 2. Objective
 
@@ -49,4 +49,4 @@ It is not a claims publication: the estate-state summary restates what the certi
 
 ## 7. Implementation
 
-Implemented in aop-governance: the register, the plan addendum, the change-model wiring and the README index.
+Implemented in `aop-governance` by [PR #17](https://github.com/agentic-operating-procedure/aop-governance/pull/17), merged at `a974cd3ddf30dbae73667e90dac6b563279f8edf`. The PR changed the CR, register, README, change model and programme plan addendum. All four acceptance criteria are represented in the merged artefacts. This is a governance-documentation change, not a normative model change.
