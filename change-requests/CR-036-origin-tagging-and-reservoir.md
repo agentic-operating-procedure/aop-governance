@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Implemented |
 | Date | 2026-11-06 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Demonstration, Evaluation |
@@ -18,7 +18,7 @@ Tag the exemplar corpus with case origin, demonstrate the exclusion and reservoi
 
 ## 3. Scope
 
-`aop-examples` only: the corpus generator emits origin (the exemplar models the human-operated era: all cases human-origin) and an `--agent-fraction` flag for post-deployment corpora; the mixed-origin corpus demonstrating the exclusion is published; the held-out exercise is re-run on the tagged corpus (`AP-RAN-014@v0.2.1`, identical split, agreement 1.0, zero violations, claim class generalisation); the walkthrough gains section 6b.
+`aop-examples` only: the corpus generator emits origin (the exemplar models the human-operated era: all cases human-origin) and an `--agent-fraction` flag for post-deployment corpora; the mixed-origin corpus demonstrating the exclusion is published; the held-out exercise is re-run unchanged on the tagged corpus (`AP-RAN-014@v0.2.1`, identical split, agreement 1.0, zero violations, claim class generalisation); the walkthrough gains section 6b.
 
 ## 4. Acceptance criteria
 
@@ -43,6 +43,8 @@ Tag the exemplar corpus with case origin, demonstrate the exclusion and reservoi
 
 It is not a live mixed-origin corpus: the agent-fraction corpus is synthetic, demonstrating the machinery. It is not a baseline change: the published baseline values are unchanged.
 
-## 7. Implementation
+## 7. Implementation and evidence
 
-Implemented in aop-examples v0.3.1.
+Implemented in `aop-examples v0.4.0`, not v0.3.1. The v0.4.0 changelog groups the origin-tagging work under CR-036 alongside the CR-037 metric-reference work. The current generator emits the `origin` field and `--agent-fraction` option; the repository contains the published mixed-origin corpus and held-out corpus artefacts. [Governance PR #19](https://github.com/agentic-operating-procedure/aop-governance/pull/19) reports the 13-case exclusion and a passing Wave 6 gate. The current changelog records the held-out result and gate outcome.
+
+The implementation evidence is repository-backed. The historical gate output was not independently re-executed during this reconciliation; the result is retained as a recorded implementation claim, not represented as a fresh test run.
