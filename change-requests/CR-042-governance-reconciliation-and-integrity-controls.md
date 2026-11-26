@@ -6,7 +6,7 @@
 | Date | 2026-11-26 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Governance |
-| Depends on | FND-001 (merged); CR-034 to CR-041 (reconciliation subjects); proposed ADR-0011 (site boundary) |
+| Depends on | FND-001 (merged); CR-034 to CR-041 (reconciliation subjects) |
 
 ## 1. Problem statement
 
