@@ -10,7 +10,7 @@
 
 ## 1. Problem statement
 
-The estate formalises decision rights, authority checks outside the model context, escalation with evidence bundles, and the append-only case record — but has no recognised counterpart framework for the trust architecture those mechanisms operationalise. The Zero-Trust Agent Framework programme (`github.com/Zero-TAF`) now exists and defines that architecture: no agent, tool, delegation, or action implicitly trusted; the protected unit is the decision; identity minted per task under signed mandate chains; the decision point outside the model context; per-action enforcement; capability containment; graded assurance (Tough Grades, scored on the same five risk axes as ADR-0006). Absent a recorded relationship, the two estates risk silent divergence and duplicative claims.
+The estate formalises decision rights, authority checks outside the model context, escalation with evidence bundles, and the append-only case record: but has no recognised counterpart framework for the trust architecture those mechanisms operationalise. The Zero-Trust Agent Framework programme (`github.com/Zero-TAF`) now exists and defines that architecture: no agent, tool, delegation, or action implicitly trusted; the protected unit is the decision; identity minted per task under signed mandate chains; the decision point outside the model context; per-action enforcement; capability containment; graded assurance (Tough Grades, scored on the same five risk axes as ADR-0006). Absent a recorded relationship, the two estates risk silent divergence and duplicative claims.
 
 ## 2. Objective
 
@@ -38,7 +38,7 @@ Checked against `plans/aop-org-cascade-checklist-org-scope.md`.
 | A2, A3, A5 to A10 | IN SCOPE, no change |
 | B1 to C7 | IN SCOPE, no change: no clause, schema, boundary, or threat-model change |
 | D1 to L4 | N/A or no change |
-| L1 | IN SCOPE: met — the relationship is recorded before any artefact moves |
+| L1 | IN SCOPE: met: the relationship is recorded before any artefact moves |
 
 ## 6. What this CR is not
 
