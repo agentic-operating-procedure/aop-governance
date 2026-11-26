@@ -69,6 +69,6 @@ Implementation is partial and acceptance is not yet demonstrated.
 - The latest verifier workflow run failed in twelve of the thirteen versioned repositories; the governance repository's latest run passed. In the inspected `aop-foundations` run, fetching the shared verifier from the site repository failed and the verifier step was skipped.
 - A passing tag check does not prove that the changelog verifier executed successfully.
 - The current implementation fetches the verifier from the mutable site `main` branch, so the dependency is neither immutable nor independently integrity-checked.
-- The all-repository zero-failure acceptance criterion is therefore not met.
+- The all-repository zero-failure acceptance criterion is therefore not met. The `verify-changelog` workflow for this reconciliation PR passed on the `aop-governance` head commit (`25a903b034a475c9ca6d425369f78b43ee934b20`); this local pass does not establish estate-wide recovery or change the twelve prior failures.
 
 **Disposition:** retain Proposed. This CR is partially implemented in fact, but the current change model has no partial-implementation state. CR-042 must establish that disposition before this CR can be marked Implemented. Do not interpret the presence of workflow files or version tags as successful operation of the control.
