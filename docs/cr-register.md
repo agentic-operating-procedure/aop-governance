@@ -1,4 +1,4 @@
-# Change Request Register (CR-001 to CR-033)
+# Change Request Register (CR-001 to CR-041)
 
 One line per change request, with its landing state. The register is the index; the CR files under `change-requests/` are the record. Estate waves refer to the original programme plan; hardening waves H1 to H5 refer to the comprehensive CR plan.
 
@@ -40,4 +40,15 @@ One line per change request, with its landing state. The register is the index; 
 | CR-031 | Land Wave H4 | H4 | Implemented |
 | CR-032 | Land Wave H5 | H5 | Implemented |
 | CR-033 | Held-out cohort run; metamodel map | Closure | Implemented |
-| CR-038 | Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles | Alignment | Implemented |
+| CR-034 | Governance reconciliation | Governance | Proposed; verify current landing state |
+| CR-035 | Close metamodel reconciliation points 3 and 4 | Specification | Proposed; verify current landing state |
+| CR-036 | Origin tagging and reservoir demonstration | Demonstration / Evaluation | Proposed; verify current landing state |
+| CR-037 | Gap-to-reference swap for published metric records | Demonstration | Proposed; verify current landing state |
+| CR-038 | Recognise Zero-TAF as the trust framework whose runtime realisation AOP profiles | Alignment | Proposed; verify current landing state |
+| CR-039 | Repair the estate's version records and guard them in CI | Governance tooling | Proposed |
+| CR-040 | Site repository and changelog verification tooling | Governance tooling | Referenced by CR-039; no CR-040 file found in the current change-requests directory during this reconciliation |
+| CR-041 | Restore fault-management fixture integrity and execution-policy consistency | Model | Proposed |
+
+## Register reconciliation note
+
+The original register stopped at CR-033 and omitted later CR records. Rows CR-034 through CR-039 above are indexed from the corresponding files currently present in `change-requests/`; their landing states must be reconciled against merged implementation PRs before this register is treated as a fully verified status ledger. CR-040 is referenced by CR-039's implementation section but no corresponding CR-040 file was present in the current directory listing at the time of this update. CR-041 is the new proposal in this branch.
