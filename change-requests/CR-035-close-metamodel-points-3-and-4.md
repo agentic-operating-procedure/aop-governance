@@ -40,6 +40,8 @@ Record the final dispositions for points 3 and 4, leaving the register's E26 to 
 
 It is not a new decision: both dispositions restate what SEC-11, HM-2, the errata and the ratification gate already establish. It is not CR-010's completion: E26 to E40 remain unpinned pending the owner's Stage 03 and 05 sources.
 
-## 7. Implementation
+## 7. Implementation and reconciliation
 
-Implemented in the aop-spec metamodel mapping document.
+The governance record was added by [PR #18](https://github.com/agentic-operating-procedure/aop-governance/pull/18), merged at `e96e588f1418fce76aa434e3ffee63a38ef1d6bb`. The downstream specification currently resolves point 4, but point 3 still says the Stage 01 decision "should be cited" rather than recording the required citation and disposition. The aop-spec 0.6.0 changelog claims both points are closed, so the changelog and mapping document are inconsistent.
+
+**Disposition:** partially evidenced, not accepted as fully implemented. CR-035 remains Proposed. Complete point 3 in the authoritative mapping document, then re-run the specification's documentation and specimen checks. Do not treat the merged CR-record PR as the implementation PR.
