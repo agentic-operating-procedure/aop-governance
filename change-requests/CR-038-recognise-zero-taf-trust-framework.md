@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Proposed |
+| Status | Implemented |
 | Date | 2026-11-23 |
 | Owner | Emmanuel A. Otchere |
 | Layer | Estate |
@@ -44,6 +44,6 @@ Checked against `plans/aop-org-cascade-checklist-org-scope.md`.
 
 It is not the creation of any repository in this estate. It is not a conformance change: no AOP document profile or harness behaviour changes. It is not a merge of programmes: Zero-TAF remains a separate organisation; this CR records consumption and realisation direction only. It is not the detailed clause-level binding (ZT ↔ SEC ↔ TG): that lands later in the Zero-TAF programme's `ztaf-bindings`, mirrored by a future AOP-side CR when it exists.
 
-## 7. Implementation
+## 7. Implementation and evidence
 
-Implemented in `aop-governance`: the §5 bullet and the register row land with this CR.
+Implemented in `aop-governance` by [PR #22](https://github.com/agentic-operating-procedure/aop-governance/pull/22), merged at `4ececd6329f6775c44820736065eaa90f532ace3`. The PR changed this CR, the CR register and the repository map; the register already records CR-038 as Implemented. The reciprocal Zero-TAF ADR-ZTAF-0006 is recorded in FND-001. The CR file's former Proposed status was inconsistent with the merged implementation record and register entry; this update reconciles it.
